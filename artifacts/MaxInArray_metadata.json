@@ -8,25 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "value",
-						"type": "int256"
+						"internalType": "int256[]",
+						"name": "numbers",
+						"type": "int256[]"
 					}
 				],
-				"name": "initArray",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "intArray",
+				"name": "maxInArray",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -34,7 +21,7 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -51,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_2.sol": "task1"
+			"assignment3_5task.sol": "MaxInArray"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,11 +52,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_2.sol": {
-			"keccak256": "0x78dbf41a98a46da8d62f534078e886192f1b0ffda88d1d9b71d568cc8eb665ce",
+		"assignment3_5task.sol": {
+			"keccak256": "0xf3fba72bb0e2bb608ad4fcc203f2e29b9b1c3f46a231aa62b1209e6466478afe",
 			"urls": [
-				"bzz-raw://d31aa7358f1921cdd5bb611164fefecc0472db7412fc7e5948550d7c7c721d1b",
-				"dweb:/ipfs/QmYCudj39GY1iiBWVZbyCVNHvCAB98mFpAq13JKvKpQbo2"
+				"bzz-raw://0b1cbc6dba1cb130967f8128a1a0cb44f0fc4bfedb141925286cad4678717f6c",
+				"dweb:/ipfs/QmSQxmhhXmJEBnqe5XACPFhuTaV7MSoJHeAVQftfsjReM7"
 			]
 		}
 	},

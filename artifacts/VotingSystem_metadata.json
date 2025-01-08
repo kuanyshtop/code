@@ -6,33 +6,40 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getVotes",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "count",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "addFib",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "voteAgainst",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "fibArray",
+				"inputs": [],
+				"name": "voteFor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "votesAgainst",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,14 +51,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "getElement",
+				"inputs": [],
+				"name": "votesFor",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,14 +60,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "initFib",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -83,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_1.sol": "task2"
+			"assignment2_4task.sol": "VotingSystem"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,11 +91,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_1.sol": {
-			"keccak256": "0x2efe2e4b6e852bf2c60b74c0d76d90527dbe78412fd8e013a65abee6827dd48e",
+		"assignment2_4task.sol": {
+			"keccak256": "0xc545aa911c4cb3959abec884c4e8b734e3864b893f016a7d601447d712a26a32",
 			"urls": [
-				"bzz-raw://119857bb459c629738d9b00ec8ed5a6b7053971120f13541edd5d656c30a90ad",
-				"dweb:/ipfs/QmafSdtWQaNJahZU5QryUEVDo1sxsJLc9fc8GRnmznvB5b"
+				"bzz-raw://990c84b5e8bc2cf3e277d2c6f790cfb91f5651fee78156fc614f861361455e57",
+				"dweb:/ipfs/QmTPymo7hqjxNTVzYvcumvGCR3JbrkCH22YTxtg52CC5Ge"
 			]
 		}
 	},

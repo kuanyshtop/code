@@ -6,21 +6,46 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "count",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "addFib",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokenInfo",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -28,11 +53,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "fibArray",
+				"name": "receiveTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -47,24 +79,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "number",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "getElement",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "initFib",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -83,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_1.sol": "task2"
+			"assignment2_2task.sol": "TokenManagement"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,11 +116,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_1.sol": {
-			"keccak256": "0x2efe2e4b6e852bf2c60b74c0d76d90527dbe78412fd8e013a65abee6827dd48e",
+		"assignment2_2task.sol": {
+			"keccak256": "0x0afbc53730cfcdfb55ef8ffaee342142fae81fabecb6115f114b70212e4ab8f3",
 			"urls": [
-				"bzz-raw://119857bb459c629738d9b00ec8ed5a6b7053971120f13541edd5d656c30a90ad",
-				"dweb:/ipfs/QmafSdtWQaNJahZU5QryUEVDo1sxsJLc9fc8GRnmznvB5b"
+				"bzz-raw://16988455b6ca2b3c908031f68e2045af4070684d4935f9fb8c284c338c3a97ea",
+				"dweb:/ipfs/Qmf1F7YHPBgqW3jqoYmDjUxFndKHeEhT3HYpHoJu93K7TL"
 			]
 		}
 	},

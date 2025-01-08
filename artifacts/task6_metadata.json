@@ -8,17 +8,22 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_client",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "count",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "addFib",
+				"name": "addBalance",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256[]"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -27,12 +32,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"name": "fibArray",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -46,26 +51,29 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "getElement",
-				"outputs": [
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "initFib",
-				"outputs": [],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -83,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_1.sol": "task2"
+			"code10_5.sol": "task6"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,11 +105,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_1.sol": {
-			"keccak256": "0x2efe2e4b6e852bf2c60b74c0d76d90527dbe78412fd8e013a65abee6827dd48e",
+		"code10_5.sol": {
+			"keccak256": "0xdabc3b209566aaa6aa12454c7556e340bd991f36358b710e8b3266906759311b",
 			"urls": [
-				"bzz-raw://119857bb459c629738d9b00ec8ed5a6b7053971120f13541edd5d656c30a90ad",
-				"dweb:/ipfs/QmafSdtWQaNJahZU5QryUEVDo1sxsJLc9fc8GRnmznvB5b"
+				"bzz-raw://858cb64edabbba29ec2f10de99bca5d4526ca3d89fb878142a54959298aea733",
+				"dweb:/ipfs/QmfQDSfv1Do7gVdCCMJGc1jsvD4zWs5iFtvcZxW5BR11mw"
 			]
 		}
 	},

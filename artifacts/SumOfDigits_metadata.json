@@ -8,33 +8,20 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "value",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
 					}
 				],
-				"name": "initArray",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "sumOfDigits",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "intArray",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -51,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_2.sol": "task1"
+			"assignment3_8task.sol": "SumOfDigits"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,11 +52,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_2.sol": {
-			"keccak256": "0x78dbf41a98a46da8d62f534078e886192f1b0ffda88d1d9b71d568cc8eb665ce",
+		"assignment3_8task.sol": {
+			"keccak256": "0xdbc2457e37d8757d15964c279e3002574150f7f54b7385add61ab1dcfa563625",
 			"urls": [
-				"bzz-raw://d31aa7358f1921cdd5bb611164fefecc0472db7412fc7e5948550d7c7c721d1b",
-				"dweb:/ipfs/QmYCudj39GY1iiBWVZbyCVNHvCAB98mFpAq13JKvKpQbo2"
+				"bzz-raw://17eff3f7990326bda400fd03809ce4d0901ceed846f60da19e6396bf43b3e42c",
+				"dweb:/ipfs/QmP12nLULF9xUejVdAoDSoVXDLGFprPjnuPjRoiFSzSo9J"
 			]
 		}
 	},

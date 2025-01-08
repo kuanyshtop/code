@@ -8,33 +8,25 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "value",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "exponent",
+						"type": "uint256"
 					}
 				],
-				"name": "initArray",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "power",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "intArray",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -51,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_2.sol": "task1"
+			"assignment3_9task.sol": "Power"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,11 +57,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_2.sol": {
-			"keccak256": "0x78dbf41a98a46da8d62f534078e886192f1b0ffda88d1d9b71d568cc8eb665ce",
+		"assignment3_9task.sol": {
+			"keccak256": "0x127931763020111ed7cbdb61f7cdcb95cbb833768fb117815ff55af91e5d168b",
 			"urls": [
-				"bzz-raw://d31aa7358f1921cdd5bb611164fefecc0472db7412fc7e5948550d7c7c721d1b",
-				"dweb:/ipfs/QmYCudj39GY1iiBWVZbyCVNHvCAB98mFpAq13JKvKpQbo2"
+				"bzz-raw://bf6d675184e76b4f30b577c0575d310ceeffd01b77bad072b1e464a0c918d5ee",
+				"dweb:/ipfs/QmZsVKqEShmLLG4Q4Fj5SvzKHWkfbf1PxAzKd7eHsctR5i"
 			]
 		}
 	},

@@ -9,18 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "count",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "addFib",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
+				"name": "add",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -28,11 +22,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "fibArray",
+				"name": "subtract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,32 +42,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "getElement",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "initFib",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -83,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_1.sol": "task2"
+			"assignment2_1task.sol": "ArithmeticOperations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,11 +72,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_1.sol": {
-			"keccak256": "0x2efe2e4b6e852bf2c60b74c0d76d90527dbe78412fd8e013a65abee6827dd48e",
+		"assignment2_1task.sol": {
+			"keccak256": "0xd720c278565b95effbb2f72be7fd27fdf328d069b074454cbf708716da016a0a",
 			"urls": [
-				"bzz-raw://119857bb459c629738d9b00ec8ed5a6b7053971120f13541edd5d656c30a90ad",
-				"dweb:/ipfs/QmafSdtWQaNJahZU5QryUEVDo1sxsJLc9fc8GRnmznvB5b"
+				"bzz-raw://53d9d4ce559e59108288e9d6d87ce6198fe161d51b2e4a27a44eff338abb7e16",
+				"dweb:/ipfs/Qmd7HgSu6JKdtbrzJqURB8zzXakPGssWRhRGS6YraaGuQP"
 			]
 		}
 	},
