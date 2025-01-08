@@ -8,68 +8,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint8",
-						"name": "choice",
-						"type": "uint8"
-					},
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "checkContract",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "str",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "addStr",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint8",
-						"name": "choice",
-						"type": "uint8"
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
 					}
 				],
-				"name": "clear",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "compare",
+				"name": "isContract",
 				"outputs": [
 					{
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "str1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "str2",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -89,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_4.sol": "task3"
+			"code13_3.sol": "task3"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -103,11 +71,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_4.sol": {
-			"keccak256": "0x1f9dff6051330b28c993d65c160b5b667f5edec6a60eb0aab2ffc9c8d5d35eb6",
+		"code13_3.sol": {
+			"keccak256": "0x2c06e7e4ec1aeda1003594d84807bcf60d203ca7424860951dbad462e8c6852f",
 			"urls": [
-				"bzz-raw://f945bf310376af9d917cae9d2bb162b62a04fc92271cece93868281b6dd9d99b",
-				"dweb:/ipfs/QmPYGzRRLjeq698M9umPdoHrBWavw3GaS92umdD2N6Amz5"
+				"bzz-raw://dfb05c0199580b790f887bd41ec2e22f2511ffaf450de55f59f982b86a852e8d",
+				"dweb:/ipfs/QmY1jdakzx6r66jzfPSZsLCd7GXphvbXRotN8yuQMJHjGE"
 			]
 		}
 	},

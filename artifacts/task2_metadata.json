@@ -8,55 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "count",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
 					}
 				],
-				"name": "addFib",
+				"name": "changeOwner",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "fibArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "getElement",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -64,8 +26,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "initFib",
-				"outputs": [],
+				"name": "setOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -83,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_1.sol": "task2"
+			"code13_2.sol": "task2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,11 +65,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_1.sol": {
-			"keccak256": "0x2efe2e4b6e852bf2c60b74c0d76d90527dbe78412fd8e013a65abee6827dd48e",
+		"code13_2.sol": {
+			"keccak256": "0x7479b555efd3f72acb5d2dd978dfa5c1789d75bea61c1752fbc69fbf3e9931c9",
 			"urls": [
-				"bzz-raw://119857bb459c629738d9b00ec8ed5a6b7053971120f13541edd5d656c30a90ad",
-				"dweb:/ipfs/QmafSdtWQaNJahZU5QryUEVDo1sxsJLc9fc8GRnmznvB5b"
+				"bzz-raw://e1e7ca561906f2e2aede349b5f0019f68f249e0c5b240761b1d2881bb7ba62fd",
+				"dweb:/ipfs/QmbfZGVMGLo89f89uUXTTr4wW4yTUPoSrC6NFv3RW6rNU4"
 			]
 		}
 	},

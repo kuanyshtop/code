@@ -6,130 +6,79 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_client",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "addBalance",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "balance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fee",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_fee",
-						"type": "uint256"
-					}
-				],
-				"name": "setFee",
+				"name": "donate",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_sender",
+						"name": "",
 						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
 					}
 				],
-				"name": "transferFrom",
+				"name": "donators",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_client",
+						"name": "adr",
 						"type": "address"
-					},
+					}
+				],
+				"name": "getDonator",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_value",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setOwner",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -154,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_7.sol": "task7"
+			"code13_7.sol": "task7"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -168,11 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_7.sol": {
-			"keccak256": "0xc89c223033b679a701afb741eb44e2d8a608e555f2611e3174ff3fe47a412b1c",
+		"code13_7.sol": {
+			"keccak256": "0x5a8b01c59a430edcb9ad2b7fd0bf0d35352740538521c704fdff1838ea9d960b",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://64246ec8206546629edf4d7d0afe48f6bb281ee59a13cf4304b9d84377480ad0",
-				"dweb:/ipfs/QmdmRR27bkrhmkJbn1UivdewXfR3dtzpjmkL5xZB8URSoK"
+				"bzz-raw://f0eacc852308069292e2ef301357c5b7a12eba3e0f848fe2e18531987afbcc48",
+				"dweb:/ipfs/QmRnwLbKvXLPe1tynaRsMBZtoxcVQn8v3uvC7g26C1GuAp"
 			]
 		}
 	},

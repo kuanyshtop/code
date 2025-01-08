@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_secretNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "guessedNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment4_2.sol": "GuessTheNumber"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment4_2.sol": {
+			"keccak256": "0xd5b6a02d5b46a398405900aa39b085c67d0c1690ff40730443e9b78877098023",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8ee07a6fd1c19e9216f42feb193bb69758f5f81b06d9b8155ef14fbbd72e2bf",
+				"dweb:/ipfs/QmSS7YAFeMCny4FUWP7FzRf5J3QbmHdpjNCLehroiEZXeu"
+			]
+		}
+	},
+	"version": 1
+}

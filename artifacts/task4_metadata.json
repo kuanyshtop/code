@@ -8,58 +8,43 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint8",
-						"name": "grade",
-						"type": "uint8"
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
 					}
 				],
-				"name": "addGrade",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint8",
-						"name": "age",
-						"type": "uint8"
-					}
-				],
-				"name": "addStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "getAddressBalance",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "students",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContractBalance",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSenderBalance",
+				"outputs": [
 					{
-						"internalType": "uint8",
-						"name": "age",
-						"type": "uint8"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -79,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_3.sol": "task4"
+			"code13_6.sol": "task4"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -93,11 +78,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_3.sol": {
-			"keccak256": "0x58fca7d22e5125010e1a9c49724e573bfd9f17a51e9634db5e7280219312af64",
+		"code13_6.sol": {
+			"keccak256": "0x7c54c23a4301ed8dd089eec94b37dc1388f32f86e47ebd587f8ff51f4d2732b3",
 			"urls": [
-				"bzz-raw://c54367e001525cb88da8dc2871a6db14eaf04d192363363e579b527873a12e6d",
-				"dweb:/ipfs/QmVkKerSRnU6NoMWXJ7domX2Q59Kf11rBkzySen9SPLhnn"
+				"bzz-raw://9914305b63e0d7ce587c93677b360ab1913d47d4baf3cf4cc4fbf7611a2db4b7",
+				"dweb:/ipfs/Qmb4qf9kJgojzbM7BMKuJSsSZ2QsQrSdZk5Dvs4wiRp7pw"
 			]
 		}
 	},

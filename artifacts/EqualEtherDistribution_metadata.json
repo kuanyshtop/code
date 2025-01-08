@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_addresses",
+						"type": "address[]"
+					}
+				],
+				"name": "distributeEqually",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"example13_8task.sol": "EqualEtherDistribution"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"example13_8task.sol": {
+			"keccak256": "0x7804d02d2e4879e883220ee52fde82fa0173bb390e010f6a6a8a79182fe20073",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31f211081e639147e98fb1fd00696b3b844ed93d43d4637b198e7fcce9114e3c",
+				"dweb:/ipfs/Qmc28Ysq2bJnwPg465JjvZPU2Ys8bLNgVzUUdxFrPYZu66"
+			]
+		}
+	},
+	"version": 1
+}
