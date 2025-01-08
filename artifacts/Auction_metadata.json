@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "highestBid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "highestBidder",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -19,29 +32,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
-					}
-				],
-				"name": "setString",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "placeBid",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -58,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"assignment5_8.sol": "Auction"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"assignment5_8.sol": {
+			"keccak256": "0x46810bd8768a589184b136f89e54bea9339c7e43306719c40a03d347d996b0dd",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://4ec5dd23c03727977321520a346227223bd8196bb850c2592791420d21bb2097",
+				"dweb:/ipfs/Qmai1Lih7rzX1pqdQQyqfpPnooy4eW1hEjCg5CQJDKQTbM"
 			]
 		}
 	},

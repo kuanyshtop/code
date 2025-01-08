@@ -6,28 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "autoPay",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_threshold",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "donate",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minDonate",
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "approvals",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,8 +41,33 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "owners",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -55,39 +82,31 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_autoPay",
+						"name": "recipient",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
-				"name": "setAddress",
+				"name": "submitTransaction",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "threshold",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_minDonate",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setMinDonate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -104,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"assignment5_9.sol": "MultiSigWallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"assignment5_9.sol": {
+			"keccak256": "0xef4985759392730d12c4682590103854be6e2d385c212b603a6f4bfa38ec5135",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://0fb1bab500dea6ab07cd4f430266293c76c36ec485ef37c4eadd540be8aedef5",
+				"dweb:/ipfs/QmViSn4VedxZwpf65hrPpmcopew3gTbMTabXDeAyz2SAkw"
 			]
 		}
 	},

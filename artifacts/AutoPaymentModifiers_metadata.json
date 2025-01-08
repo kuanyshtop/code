@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "autoPay",
 				"outputs": [
 					{
@@ -104,7 +109,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"example.14_3.sol": "AutoPaymentModifiers"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +123,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"example.14_3.sol": {
+			"keccak256": "0xee0662caedab767d1b483b3d825803532f5c43462561048e0aa4a4513d58cbe3",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://dfd21648b9d5fc35103fc3528e0ac3b758b56a25b6dbadf2df3156777b0aa3c5",
+				"dweb:/ipfs/QmRkANmsy5q3aQ6ZkXiqGMVu69JuMaeotSjTbyNts1FcFu"
 			]
 		}
 	},

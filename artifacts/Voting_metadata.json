@@ -6,42 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "hasVoted",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"name": "setString",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"assignment5_6.sol": "Voting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"assignment5_6.sol": {
+			"keccak256": "0x6724c78b38e6af18bb2b45fed9a17df0fb8376c4fa1c28c0723eba394aebf102",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://efb0e5635647f30511a038a35b16610ba3041e6ed26a71231bb01f59303256d9",
+				"dweb:/ipfs/QmWTAa6emZcYBFEFHDBEpkf4co1TgmcMpKbbjAHgNWxXms"
 			]
 		}
 	},

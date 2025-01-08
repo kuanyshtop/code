@@ -9,11 +9,18 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "adr",
+						"name": "newOwner",
 						"type": "address"
 					}
 				],
-				"name": "getAddressBalance",
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,29 +33,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "getContractBalance",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getSenderBalance",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recepient",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -64,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code13_6.sol": "task4"
+			"code14_4.sol": "task4"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -78,11 +94,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code13_6.sol": {
-			"keccak256": "0x7c54c23a4301ed8dd089eec94b37dc1388f32f86e47ebd587f8ff51f4d2732b3",
+		"code14_4.sol": {
+			"keccak256": "0x9b7c815b8b0a801c583c6eee067f9d60d73f79980d84e7c1a2e4b7c5c6b53cbe",
 			"urls": [
-				"bzz-raw://9914305b63e0d7ce587c93677b360ab1913d47d4baf3cf4cc4fbf7611a2db4b7",
-				"dweb:/ipfs/Qmb4qf9kJgojzbM7BMKuJSsSZ2QsQrSdZk5Dvs4wiRp7pw"
+				"bzz-raw://7acf1d4cb303a66928abf5a804c052bc1c9c6bd228bbc9c417a608929edae252",
+				"dweb:/ipfs/QmT45XjXtTyjjHGVzX6dTnLWphfoP8yuuqc1dEqznt9dnf"
 			]
 		}
 	},

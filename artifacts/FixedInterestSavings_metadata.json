@@ -6,43 +6,47 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
+				"name": "deposits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "interestRate",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "setString",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawWithInterest",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -58,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"assignment5_5.sol": "FixedInterestSavings"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"assignment5_5.sol": {
+			"keccak256": "0xd843f748ed011973599042e0448cff037f1654fd46802fd5579e9a5d4920ce4f",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://b382a927ec96c866d8fa87d14d7cabe3f00cd505263babae545f21fdc29632a3",
+				"dweb:/ipfs/QmTvvvZnBfVTmafv4FsDVkTBeLZVSdYApreCMs66LYfpSW"
 			]
 		}
 	},

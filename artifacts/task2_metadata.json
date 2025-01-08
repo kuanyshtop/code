@@ -6,34 +6,87 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "autoPay",
+				"outputs": [
 					{
 						"internalType": "address",
-						"name": "newOwner",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "changeOwner",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setOwner",
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minDonate",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_autoPay",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_minDonate",
+						"type": "uint256"
+					}
+				],
+				"name": "setMinDonate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -51,7 +104,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code13_2.sol": "task2"
+			"code14_2.sol": "task2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,11 +118,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code13_2.sol": {
-			"keccak256": "0x7479b555efd3f72acb5d2dd978dfa5c1789d75bea61c1752fbc69fbf3e9931c9",
+		"code14_2.sol": {
+			"keccak256": "0x3c9fca14adf6a1aa349276bbc46ec675898cbbc91ff6aae1be10a4223aa48d02",
 			"urls": [
-				"bzz-raw://e1e7ca561906f2e2aede349b5f0019f68f249e0c5b240761b1d2881bb7ba62fd",
-				"dweb:/ipfs/QmbfZGVMGLo89f89uUXTTr4wW4yTUPoSrC6NFv3RW6rNU4"
+				"bzz-raw://d6d63f9156447187fef4f4e19f2902c87793bbedea0f5c9aa7698a744b795e29",
+				"dweb:/ipfs/Qme5H4bNTphbA6ujsPYWaAp9SB8dx1HUkPBZbD1fmHnvNM"
 			]
 		}
 	},

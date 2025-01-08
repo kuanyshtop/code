@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -19,30 +30,28 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "releaseTime",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "setString",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -58,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"assignment5_4.sol": "TimeLockedWallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"assignment5_4.sol": {
+			"keccak256": "0x1bd0c6985a511b84a5f86127f94c37e974cd0e09279dd8ef30848c3f4e7439bd",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://aac0c9040488e52f8444cc3119f539f6d043a557d4e4e8d47f21747f3b2ad29e",
+				"dweb:/ipfs/QmdSK7JaT4qLSQXSnRCrQztSVKJNoFLaEAqLTQXquJM6yb"
 			]
 		}
 	},

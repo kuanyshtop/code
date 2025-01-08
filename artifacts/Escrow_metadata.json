@@ -6,28 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "autoPay",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_recipient",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "donate",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minDonate",
+				"name": "escrowAmount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -52,43 +43,28 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "recipient",
+				"outputs": [
 					{
 						"internalType": "address",
-						"name": "_autoPay",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "setAddress",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "releaseFunds",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_minDonate",
-						"type": "uint256"
-					}
-				],
-				"name": "setMinDonate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -104,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"assignment5_3.sol": "Escrow"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"assignment5_3.sol": {
+			"keccak256": "0xb1e9bdfbc7e8f7085b3a0c2f1778379101cc75aef28558629b11cfe7ef3b899d",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://267bfbf22af7d526c3658a3d9890c1f3f4213c22df7ef703267d1c97db960abc",
+				"dweb:/ipfs/QmdnThotF7cUGgsnM9fVq8He2aEvMWT4pVfBtAYQ1eBRWX"
 			]
 		}
 	},

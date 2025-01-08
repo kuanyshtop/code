@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -58,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"example14_1.sol": "Task1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"example14_1.sol": {
+			"keccak256": "0x72d8583a3144657816e1c1104ffb0c1cee78cc687fe953cec53ad0d3b87be5b4",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://9c7ed4868c747a03d4d6a4ea97021d96317e152ef3b898cbd4e4109869dc2a4b",
+				"dweb:/ipfs/QmcfcHEpbCBTqSHZjGCerupnpusKsfYyd2LKTus2z9fGw2"
 			]
 		}
 	},

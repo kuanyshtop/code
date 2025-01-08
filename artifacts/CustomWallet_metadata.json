@@ -7,27 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "autoPay",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "newOwner",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "donate",
+				"name": "changeOwner",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "minDonate",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -52,40 +50,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "receiveFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_autoPay",
+						"internalType": "address payable",
+						"name": "recipient",
 						"type": "address"
-					}
-				],
-				"name": "setAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_minDonate",
-						"type": "uint256"
-					}
-				],
-				"name": "setMinDonate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "transferEth",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -104,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"example14_4.sol": "CustomWallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"example14_4.sol": {
+			"keccak256": "0xdafd231703e4efd176cfcfb92296289278d8427b7e2ef935b941b773c9c91e26",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://5c952c80349753b1e397b4628c369ab2a823ef95108e5b2ee534e0b1ade68f1d",
+				"dweb:/ipfs/QmXrE9sF6SuRDCs1DaWUsawyVVqjSXQoVUzzbZWFsii8w2"
 			]
 		}
 	},

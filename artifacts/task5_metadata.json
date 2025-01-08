@@ -8,57 +8,63 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint8",
-						"name": "grade",
-						"type": "uint8"
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
 					}
 				],
-				"name": "addGrade",
+				"name": "changeOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint8",
-						"name": "age",
-						"type": "uint8"
-					}
-				],
-				"name": "addStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "students",
+				"inputs": [],
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "uint8",
-						"name": "age",
-						"type": "uint8"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recepient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -74,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code10_6.sol": "task5"
+			"code14_5.sol": "task5"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,11 +94,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code10_6.sol": {
-			"keccak256": "0x17fe244477d83a54e3c721ea66f2f9252b379e234e012caa8352d45f1ca281c3",
+		"code14_5.sol": {
+			"keccak256": "0xd1e43edf05d032ec2822cb47baa2b933d644576f812780b30aa6f4f64d3b0a3e",
 			"urls": [
-				"bzz-raw://52b450fc476386f4f87307f37f0746f376434ad1baf619bb2ff8a10eb0d227a1",
-				"dweb:/ipfs/QmdzrTquAmiFRkUkU5yh3tyxLKTDsYAVybMGJBcVG15vhJ"
+				"bzz-raw://e04bde415162ab8435960863ad898f6538031d5a58b18f5ef9821f5aa5222850",
+				"dweb:/ipfs/QmSP8rM5QybJebWx1SkMyCQPce5Nev6jPYST7SEUw7Gw25"
 			]
 		}
 	},

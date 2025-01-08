@@ -6,8 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releaseDate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "autoPay",
+				"name": "beneficiary",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -20,22 +36,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "donate",
+				"name": "claimTokens",
 				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minDonate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -52,43 +55,34 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_autoPay",
-						"type": "address"
-					}
-				],
-				"name": "setAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"inputs": [],
+				"name": "releaseDate",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_minDonate",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setMinDonate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "vestedAmount",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "value",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -104,7 +98,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"assignment5_10.sol": "TokenVesting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +112,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"assignment5_10.sol": {
+			"keccak256": "0xcae1c31d2ef002670dc1ce104ae106cf6aca12b2d16a3e3d1e76fd0e065a7d60",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://a238cfe0807b0fbb267c68d170ca7678158bb42a800d28596d09da258b1a9be4",
+				"dweb:/ipfs/QmbJwn9Qfia3UTrTg5aY3xhvHxu5vAE4aXKwJ1VNpZSYoD"
 			]
 		}
 	},

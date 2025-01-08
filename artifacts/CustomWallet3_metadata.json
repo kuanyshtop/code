@@ -7,27 +7,67 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "autoPay",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "sender",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "badOwner",
+				"type": "error"
 			},
 			{
-				"inputs": [],
-				"name": "donate",
-				"outputs": [],
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "input",
+						"type": "bytes"
+					}
+				],
+				"name": "badSignature",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "badValue",
+				"type": "error"
+			},
+			{
 				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "minDonate",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -52,40 +92,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "receiveFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_autoPay",
+						"internalType": "address payable",
+						"name": "recipient",
 						"type": "address"
-					}
-				],
-				"name": "setAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_minDonate",
-						"type": "uint256"
-					}
-				],
-				"name": "setMinDonate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "transferEth",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -104,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_3.sol": "task3"
+			"example14_6.sol": "CustomWallet3"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,11 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_3.sol": {
-			"keccak256": "0x03b496311e8395810617fda2ec9ca002ede0aa2c1adcac8213d53e51b0640353",
+		"example14_6.sol": {
+			"keccak256": "0x03ccc48fa4f1678661c03965e20eb40a81fa763b8c809b2b5922ef12ba393437",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55bf60920da252226753db36a029f8f3c366a03e87277f2ecc003dd0401760df",
-				"dweb:/ipfs/Qmf7UAj39AQkPtNjTqesjuZnn8tZnY7JAVN1MJ5Ux17dXX"
+				"bzz-raw://6b85036d7d98a817d6e6bba28b4dc57c7b2ed3a8d7fc15d03b719de5f898fdb1",
+				"dweb:/ipfs/QmWX3TF615gmTfmpJkTNY8YLYUN5jGpJPe7gaFcbh612LP"
 			]
 		}
 	},

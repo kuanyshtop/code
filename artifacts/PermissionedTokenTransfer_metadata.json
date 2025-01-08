@@ -7,12 +7,23 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -21,27 +32,19 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
-				"name": "setString",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code14_1.sol": "task1"
+			"assignment5_2.sol": "PermissionedTokenTransfer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,11 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"code14_1.sol": {
-			"keccak256": "0x8d5a564cf65d42fc10dff07c47e78497d3c5cae28dd764a349edce8260e44486",
+		"assignment5_2.sol": {
+			"keccak256": "0xadba2459b6d33bf5b4480274b5e611e53b04bf1fdb03d7c5c1431861cab42155",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff06ca2b8989b2f517b3a46f80bbf1090dd821d2a9407cd5d38adfce3a76f4cc",
-				"dweb:/ipfs/QmPPB3NmVGmVVTgvTpAL7XVUGNEXex158sW8aVpLviN4bQ"
+				"bzz-raw://4fb990c955a8ab0ca5a3765c333f3358c4423230eef0e315550f86f956070dea",
+				"dweb:/ipfs/QmQooQ7ToXaSHGG7gaQW9wdVSuqVEQ9CwhfnFKviBZ9d97"
 			]
 		}
 	},
