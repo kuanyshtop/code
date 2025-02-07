@@ -7,6 +7,69 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "bidderList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "bids",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "highestBid",
 				"outputs": [
 					{
@@ -33,9 +96,55 @@
 			},
 			{
 				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "placeBid",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "duration",
+						"type": "uint256"
+					}
+				],
+				"name": "startAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "startTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,7 +161,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"assignment5_8.sol": "Auction"
+			"week6wask3.sol": "Auction"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +175,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"assignment5_8.sol": {
-			"keccak256": "0x46810bd8768a589184b136f89e54bea9339c7e43306719c40a03d347d996b0dd",
+		"week6wask3.sol": {
+			"keccak256": "0x991ccbdba4c6ee82aebc9facd40acee1663d785c88857d85bd52d5cbc537c0da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4ec5dd23c03727977321520a346227223bd8196bb850c2592791420d21bb2097",
-				"dweb:/ipfs/Qmai1Lih7rzX1pqdQQyqfpPnooy4eW1hEjCg5CQJDKQTbM"
+				"bzz-raw://4779390082609b81351a841db1f42b5b4d52d9e229ab2d6ae0ab84acb1ba4352",
+				"dweb:/ipfs/QmZr7kUntD1Z7W78NkKRrCeZzCMNPvSS4quKcJf6Zx9Fi5"
 			]
 		}
 	},

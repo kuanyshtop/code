@@ -1,0 +1,68 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6055604b600b8282823980515f1a607314603f577f4e487b71000000000000000000000000000000000000000000000000000000005f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212200ed8021a48b1d9d1d217e02fb3f45491e7dd3e751bb5e9d5e4736d82212caa1464736f6c634300081a0033",
+			"opcodes": "PUSH1 0x55 PUSH1 0x4B PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH0 BYTE PUSH1 0x73 EQ PUSH1 0x3F JUMPI PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH0 MSTORE PUSH0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST ADDRESS PUSH0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE 0xD8 MUL BYTE BASEFEE 0xB1 0xD9 0xD1 0xD2 OR 0xE0 0x2F 0xB3 DELEGATECALL SLOAD SWAP2 0xE7 0xDD RETURNDATACOPY PUSH22 0x1BB5E9D5E4736D82212CAA1464736F6C634300081A00 CALLER ",
+			"sourceMap": "60:1326:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212200ed8021a48b1d9d1d217e02fb3f45491e7dd3e751bb5e9d5e4736d82212caa1464736f6c634300081a0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE 0xD8 MUL BYTE BASEFEE 0xB1 0xD9 0xD1 0xD2 OR 0xE0 0x2F 0xB3 DELEGATECALL SLOAD SWAP2 0xE7 0xDD RETURNDATACOPY PUSH22 0x1BB5E9D5E4736D82212CAA1464736F6C634300081A00 CALLER ",
+			"sourceMap": "60:1326:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17000",
+				"executionCost": "92",
+				"totalCost": "17092"
+			},
+			"internal": {
+				"init(uint256)": "infinite",
+				"map(int256[] memory,function (int256) pure returns (int256))": "infinite",
+				"mult(int256[] memory)": "infinite",
+				"reduce(int256[] memory,function (int256[] memory) pure returns (int256))": "infinite",
+				"reverse(int256)": "infinite",
+				"sum(int256[] memory)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

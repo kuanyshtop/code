@@ -64,7 +64,7 @@
 								"type": "uint8"
 							}
 						],
-						"internalType": "struct task5.Player[]",
+						"internalType": "struct GuessingGameWithBetting.Player[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -224,7 +224,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6example2.sol": "task5"
+			"week6task2.sol": "GuessingGameWithBetting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -238,11 +238,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6example2.sol": {
-			"keccak256": "0xbe8ebb47429bbc3797e8132225fb4ca896b1d58b128e1a4e793e842a914fad5a",
+		"week6task2.sol": {
+			"keccak256": "0x901565b40ace43d71b08ae11be0d67c537ed0d4a804bef531ba5846e8e3d3dab",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://13563709e92c50c43f9209a43707a967e90efb9d1389e5f25efccbcb18a30bab",
-				"dweb:/ipfs/QmdNeogixRG35a93g3F8CL7NTVZpNX3ff3fU4FbEi3cTmh"
+				"bzz-raw://350a57dbd4af2a3b73145562a414b18d884d04338a240e313d2a2e9eab19d519",
+				"dweb:/ipfs/QmPAdmzr78a2c4ZsvcaZrkC3y81nHg65Jbm5WYU5KZ8fBw"
 			]
 		}
 	},

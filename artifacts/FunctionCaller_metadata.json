@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "bankAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "bank",
+				"outputs": [
+					{
+						"internalType": "contract FunctionsBank",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"name": "callFunctionBank",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week7task2contract.sol": "FunctionCaller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week7task2.sol": {
+			"keccak256": "0x86a99a1a05ad4ad1f6678a8129973a5c469e9caea917edef8aa038dfeaecdcad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6472a7494c7af557c29275d9a044d2ed08e6f108b2b574359dcf3408275e8d6d",
+				"dweb:/ipfs/QmUBR3bvMNKsds62NVCtoYz7TEHVGLiUTx7KMgVCUCgTiT"
+			]
+		},
+		"week7task2contract.sol": {
+			"keccak256": "0xfc226e637196bb5842c26818e72b8d648e459c984653f07ca8d10fc6fb8d1b46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b39983b81c1cca8eb1b93558db02a3dc8f338e370e5bcf9c985ef97c97eaf409",
+				"dweb:/ipfs/QmcLVxpQAF3Z8ujM63DSPzJSFNqDcnA9WszFzi22ByHkAh"
+			]
+		}
+	},
+	"version": 1
+}

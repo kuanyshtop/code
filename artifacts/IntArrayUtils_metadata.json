@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week7task1.sol": "IntArrayUtils"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week7task1.sol": {
+			"keccak256": "0x88216106f12004d40325d6cdb83926473d9dfbaf8f7b4a9305be4ee7e8b9080f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81a19ab6550ba955ac6ea55caac70e799745c6b64f8aeaceca67f3f79d01c1ef",
+				"dweb:/ipfs/QmU6seDrNk5oVjTS3Sdy16HdFDJL6cjRFYXjAhJQdbDiq9"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,37 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_minBet",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_maxBet",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
 				"name": "entropy",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,48 +35,9 @@
 								"type": "uint8"
 							}
 						],
-						"internalType": "struct task5.Player[]",
+						"internalType": "struct GuessingGame.Player[]",
 						"name": "",
 						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "maxBet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minBet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -121,7 +53,7 @@
 				],
 				"name": "play",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -152,37 +84,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_minBet",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_maxBet",
-						"type": "uint256"
-					}
-				],
-				"name": "setBet",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sumBet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -202,13 +103,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -224,7 +118,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6example2.sol": "task5"
+			"week6task1.sol": "GuessingGame"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -238,11 +132,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6example2.sol": {
-			"keccak256": "0xbe8ebb47429bbc3797e8132225fb4ca896b1d58b128e1a4e793e842a914fad5a",
+		"week6task1.sol": {
+			"keccak256": "0x158f5a98933b6f8c86dc1ebe6e1d19651da4c05a66d9e0f885d8e48596a35b56",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://13563709e92c50c43f9209a43707a967e90efb9d1389e5f25efccbcb18a30bab",
-				"dweb:/ipfs/QmdNeogixRG35a93g3F8CL7NTVZpNX3ff3fU4FbEi3cTmh"
+				"bzz-raw://0e02fd2acf20e0391664a7701f369e0ec36055035418a3d59f876b1afb2a606e",
+				"dweb:/ipfs/QmXAgbNXWBFKns7xbUKYxfzYQTVUbKP8ZWeDQMotL3UMpb"
 			]
 		}
 	},

@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "function (bytes) pure external returns (bytes)",
+						"name": "f",
+						"type": "function"
+					}
+				],
+				"name": "addFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "callFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "functions",
+				"outputs": [
+					{
+						"internalType": "function (bytes) pure external returns (bytes)",
+						"name": "func",
+						"type": "function"
+					},
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "isSet",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week7task2.sol": "FunctionsBank"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week7task2.sol": {
+			"keccak256": "0x86a99a1a05ad4ad1f6678a8129973a5c469e9caea917edef8aa038dfeaecdcad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6472a7494c7af557c29275d9a044d2ed08e6f108b2b574359dcf3408275e8d6d",
+				"dweb:/ipfs/QmUBR3bvMNKsds62NVCtoYz7TEHVGLiUTx7KMgVCUCgTiT"
+			]
+		}
+	},
+	"version": 1
+}

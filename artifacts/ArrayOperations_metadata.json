@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_ticketPrice",
+						"name": "length",
 						"type": "uint256"
 					}
 				],
@@ -18,29 +18,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "buyTicket",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "drawWinner",
+				"name": "applyMap",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -51,12 +31,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "participants",
+				"name": "data",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -64,38 +44,25 @@
 			},
 			{
 				"inputs": [],
-				"name": "prizePool",
+				"name": "getProduct",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_price",
-						"type": "uint256"
-					}
-				],
-				"name": "setTicketPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "ticketPrice",
+				"name": "getSum",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -115,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6task4.sol": "Lottery"
+			"week7task1contract.sol": "ArrayOperations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -129,12 +96,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6task4.sol": {
-			"keccak256": "0xaecc21de709eaad86b2354ac0304d9d630fed3a5320ec1f321a5e61f7019a2bb",
+		"week7task1.sol": {
+			"keccak256": "0x88216106f12004d40325d6cdb83926473d9dfbaf8f7b4a9305be4ee7e8b9080f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da19efbd1aa12b0af6e7e3f6251f349eb90a19d0c19af74d64ffae0db4261b1b",
-				"dweb:/ipfs/QmZ1LCSFGwYZsevcRuAguBawxNVmW9djBKBrpkRq8nF3so"
+				"bzz-raw://81a19ab6550ba955ac6ea55caac70e799745c6b64f8aeaceca67f3f79d01c1ef",
+				"dweb:/ipfs/QmU6seDrNk5oVjTS3Sdy16HdFDJL6cjRFYXjAhJQdbDiq9"
+			]
+		},
+		"week7task1contract.sol": {
+			"keccak256": "0xe9a3400e121e617f90e86d5d4b6ac92c4e95a43d4ae14f932f402c575880e904",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d6d5a6ba7cc5cd5a741914d1be48a0789fa9fbe2eb920f4ca2e4aa4fe3bb31c",
+				"dweb:/ipfs/QmcZ7P6qHUpYdWbegkZZK7pe8VYcv8Rz8isocrL4PWkDwK"
 			]
 		}
 	},
